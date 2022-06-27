@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"/home/asim/codes/web-dev-udemy/Drum Kit Starting Files/c.cpp","tests":[{"id":1656102189810,"input":"4\n4\nATCG\n4\nGTCC\n5\nAAAAA\n3\nTAC","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/asim/codes/web-dev-udemy/Drum Kit Starting Files/c.cpp","group":"local","local":true}

@@ -1,4 +1,3 @@
 project link:
-https://replit.com/@AasimTaifullah/tip-calculator?v=1
-
+https://tip-calculator--aasimtaifullah.repl.co/
 

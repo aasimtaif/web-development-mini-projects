@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Gentium+Book+Plus:ital@1&family=Indie+Flower&family=Pacifico&family=Ubuntu+Mono&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 113, 7);
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: scroll !important;
+
+}
+
+.container{
+    width: 40%;
+    height:50%;
+}
+.header{
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main-content{
+    margin: auto;
+  width: 50%;
+    height: auto;
+    padding:5% 5%;
+    background-color: rgb(222, 214, 214);
+    border-radius:15px;
+    box-shadow: 0 25px 31px rgba(0,0,0,0.5);
+   
+}
+
+
+.text-area{
+    text-align: center;
+    font-size: 25px;
+    color: #262626;
+    line-height: 1.5;
+    
+}
+.main-content .source{
+    text-transform: uppercase;
+    letter-spacing:5px;
+    margin-top: 20px;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-content .button-area{
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+    padding:10px 0;
+}
+.button-area .btn button{
+    background-color:#262626;
+    color: #fff;
+    padding: 12px 20px;
+    font-size:16px;
+    border-radius:10px;
+    outline: none;
+    border: none;
+}
+.button-area .btn button:active{
+    background-color: deepskyblue;
+}
+
+@media (max-width: 742px) {
+ 
+    .main-content .source{
+        font-size: 15px;
+    }
+
+    .text-area{
+        font-size: 20px;
+    }
+    .header h2{
+        font-size: 25px;
+    
+    }
+}
